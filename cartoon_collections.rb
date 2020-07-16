@@ -15,7 +15,8 @@ def find_the_cheese(array)
   found_the_cheese = []
   array.each do |food| 
     if cheese_types.include?(food) 
-      found_the_cheese << 
+      found_the_cheese << food 
     end
   end
+  return found_the_cheese[0]
 end
