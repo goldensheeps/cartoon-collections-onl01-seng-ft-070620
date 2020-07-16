@@ -8,9 +8,9 @@ end
 
 def long_planeteer_calls(array)
   array.any? {|call| "#{call.length > 4}"
-  return true 
+  true 
   array.all? {{|call| "#{call.length <= 4}"
-  return false 
+  false 
 end
 
 def find_the_cheese# code an argument here
